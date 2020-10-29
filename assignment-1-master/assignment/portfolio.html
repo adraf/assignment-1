@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Page</title>
+  <style>
+    body {
+      background: white;
+      width: 650px;
+      border-top: 5px solid rgb(75, 75, 75);
+      border-bottom: 5px solid rgb(75, 75, 75);
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding: 40px;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: sans-serif;
+      font-size: 14px;
+    }
+
+    nav li {
+      display: inline-block;
+      font-weight: bold;
+    }
+
+    .current-page {
+      border-left: 1px solid black;
+      padding-left: 5px;
+      margin-right: 10px;
+      font-style: italic;
+    }
+
+    .top-nav {
+      text-align: center;
+
+    }
+
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    main {
+      border-top: 1px solid black;
+    }
+
+/* all other titles */
+    h3 { 
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    p {
+      text-align: justify;
+      margin-bottom: 30px;
+      line-height: 20px;
+    }
+
+/* portfolio title */
+    h4 {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .large {
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    .small {
+      font-size: smaller;
+      font-weight: lighter;
+    }
+
+    article {
+      margin: 0 0 30px 40px;
+      line-height: 20px;
+    }
+    /* job headers */
+    .work li {
+      display: inline;
+      padding-right: 5px;
+    }
+
+    .work { 
+      border-bottom: 1px solid black;
+      margin-top: 30px;
+    }
+
+    img {
+      border: 2px solid black;
+      padding: 4px;
+      margin: 0 0 20px 40px;
+    }
+
+    .education {
+      line-height: 10px;
+      margin-top: 30px;
+    }
+
+    .school li {
+      display: inline;
+      padding-right: 5px;
+      line-height: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="top-nav">
+      <ul>
+        <li><a href="index.html">About Me</a></li>
+        <li class="current-page">Portfolio</li>
+      </ul>
+    </nav>
+    <h1>Adam Rafferty</h1>
+  </header>
+  <main>
+    <h3>Experience</h3>
+    <p>I recently graduated from a Front-End Web Development course at General Assembly where I learned HTML, CSS, JavaScript, jQuery and how to be an awesome Front-End Web Developer! During my spare time, I enjoy senior water aerobics, pickling, and spending time with my goldfish, Jerry.</p>
+    <h4>Portfolio</h4>
+    <div class="work">
+      <ul>
+        <li class="large">Web Developer</li>
+        <li class="medium">Relaxr</li>
+        <li class="small">2015 - present</li>
+      </ul>
+      <article>Developed a multi-column layout blog, landing page, and contact forms that render on mobile devices.</article>
+      <img src="./images/relaxr_deliverable.png" alt="Relaxr Page">
+    </div>
+    <div class="work">
+      <ul>
+        <li class="large">Web Developer</li>
+        <li class="medium">Startup Matchmaker</li>
+        <li class="small">2015 - present</li>
+      </ul>
+      <article>Used a design team's wireframes to develop this company's responsive homepage.</article>
+      <img src="./images/startup_matchmaker_deliverable.png" alt="Matchmaker Page">
+    </div>
+    <div class="work">
+      <ul>
+        <li class="large">Web Developer</li>
+        <li class="medium">CitiPix</li>
+        <li class="small">2015 - present</li>
+      </ul>
+      <article>Built web app prototype that allows users to store and quickly retrieve photos using keywords.</article>
+      <img src="./images/citipix_deliverable.png" alt="CitiPix Page">
+    </div>
+    <h3>Education</h3>
+    <div class="education">
+      <ul class="school">
+        <li class="large">General Assembly</li>
+        <li class="medium">FEWD</li>
+        <li class="small">2015</li>
+      </ul>
+      <ul class="school">
+        <li class="large">College of Soft Knocks</li>
+        <li class="medium">B.S</li>
+        <li class="small">2009</li>
+      </ul>
+      <ul class="school">
+        <li class="large">School of Hard Knocks</li>
+        <li class="medium">(Honors)</li>
+        <li class="small">2005</li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Rafferty</title>
+    <style>
+        body {
+            background: white;
+            width: 800px;
+            border-top: 5px solid rgb(75, 75, 75);
+            border-bottom: 5px solid rgb(75, 75, 75);
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 40px;
+            /* to center body content */
+            margin-left: auto;
+            margin-right: auto;
+            font-family: sans-serif;
+            font-size: 18px;
+        }
+
+        /* descendant selector */
+        nav li {
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        /* class name for <li> "About Me" */
+        .current-page {
+            border-right: 1px solid black;
+            padding-right: 5px;
+            font-style: italic;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* image class tag */
+        .profile-image {
+            width: 200px;
+            float: right;
+            border: 20px solid white;
+        }
+
+        main { 
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            padding-bottom: 20px;
+        }
+
+        footer {
+            margin-top: 40px;
+        }
+
+        /* all hyperlinks */
+        a {
+            color: steelblue;
+        }
+
+        /* social media links */
+        .social {
+            border-right: 1px solid black;
+            padding-right: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class= "current-page">About Me</li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+        <h1>Adam Rafferty</h1>
+    </header>
+    <main>
+        <!-- Always try to give an image class -->
+        <img class="profile-image" src="https://media-exp1.licdn.com/dms/image/C4D03AQGG-RFSNmEN3g/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=T7hI1L-5s_Y6pqbDVOnRjM90nEJ2nQB1kR8Q52unWBI" alt="Adam" >
+        <h3>Just getting started</h3>
+        <p>I'm Adam Rafferty, a budding Developer based in Devon. I have 2 lessons of experience in the coding world, specialising in the creation of responsive websites.</p>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li class="social"><a href="https://www.facebook.com/adam.rafferty.5">Facebook</a></li>
+                <li class="social"><a href="https://twitter.com/adraf182">Twitter</a></li>
+                <li class="social"><a href="https://www.instagram.com/adraf/?hl=en">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/adamrafferty/">Linkedin</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
+
